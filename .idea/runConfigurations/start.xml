@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="start" type="NodeJSConfigurationType" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+    <envs>
+      <env name="DEBUG" value="projectexpress:*  " />
+      <env name="NODEMAILER_USER" value="idomongodb@gmail.com" />
+      <env name="NODEMAILER_PASSWORD" value="idoo1231" />
+      <env name="TOKEN_SECRETE" value="sdfsefkocxvbq" />
+      <env name="CLIENT_URL" value="http://localhost:3000" />
+      <env name="MONGODB_URI" value="mongodb+srv://idoo1231:idoo1231@cluster0.k6oln.mongodb.net/users?retryWrites=true&amp;w=majority" />
+    </envs>
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+      <browser url="http://localhost:3000/" />
+    </EXTENSION>
+    <method v="2" />
+  </configuration>
+</component>
